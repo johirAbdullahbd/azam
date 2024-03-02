@@ -1,0 +1,83 @@
+.containear {
+  margin: 40px auto;
+  width: 100%;
+  height: 400px;
+  padding: 30px; /* Initial padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #2fbfd8;
+  box-sizing: border-box;
+  position: absolute;
+}
+.cardContainear {
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+  margin: 5px;
+  /* position: absolute; */
+  box-sizing: border-box;
+}
+.card {
+  width: 350px;
+  height: 350px;
+  background-color: aquamarine;
+}
+.img {
+  width: 350px;
+  height: 350px;
+}
+.rightBtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+  bottom: 170px;
+  left: 40%;
+  z-index: 5;
+}
+
+.leftBtn {
+  background-color: #5c0ddc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+  bottom: 200px;
+  right: 35%;
+  z-index: 5;
+}
+
+@media (max-width: 576px) {
+  .banner {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .banner {
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .banner {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 993px) {
+  .banner {
+    max-width: 800px;
+  }
+}

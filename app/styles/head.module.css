@@ -1,0 +1,92 @@
+.containear {
+  margin: 10px;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardBody {
+  width: 700px;
+  height: auto;
+  padding: 100px 0 50px 0;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 20px;
+}
+.imgTextContainear {
+  width: auto;
+  height: auto;
+  /* padding: 100px auto; */
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.video {
+  width: 500px;
+  height: 300px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: zoom-in;
+  transition: transform 0.3s ease-in-out;
+}
+
+.video:hover {
+  transform: scale(1.1);
+}
+.text,
+.img {
+  width: 500px;
+  height: 300px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: zoom-in;
+  transition: transform 0.3s ease-in-out;
+}
+.bckfb {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  background-color: wheat;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+.text:hover,
+.img:hover {
+  transform: scale(1.1);
+}
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.iconContainear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.iconImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.iconImg:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .iconImg {
+    width: 25px;
+    height: 25px;
+  }
+}
