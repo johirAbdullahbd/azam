@@ -23,6 +23,7 @@ const Blog = () => {
     };
 
     // Initial call to set screen size state on Blog mount
+    // Initial call to set screen size state on Blog mount
     updateScreenSize();
 
     // Add event listener for window resize
